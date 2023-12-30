@@ -34,7 +34,6 @@ function load() {
  }
 
 function search(){
-alert("hey2");
  document.getElementsByClassName('api')[0].innerHTML='';
   let value=document.getElementById('search').value;
   fetch(`https://newsapi.org/v2/everything?q=${value}&apiKey=f4ac7e976f9f4383a476eadfa46efe30`)
